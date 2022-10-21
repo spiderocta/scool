@@ -39,7 +39,7 @@ public class ContactController {
 	public ModelAndView saveMessage(Contact contact) {
 		// test the flow
 		contactService.saveMessageDetaisl(contact);
-		
+		System.out.println(contact);
 		return new ModelAndView("redirect:/contact");
 	}
 }
