@@ -3,7 +3,7 @@ Author: W3layouts
 Author URL: http://w3layouts.com
 -->
 <!doctype html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org"
+<html lang="en" xmlns:th="http://thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
 
 <head>
@@ -20,7 +20,7 @@ Author URL: http://w3layouts.com
 <body>
 
 <!-- header -->
-<div th:replace="header :: header">...</div>
+<header th:replace="layouts :: header"></header>
 <!-- //header -->
 
 <!-- inner banner -->
@@ -50,7 +50,7 @@ Author URL: http://w3layouts.com
 <!-- //login block -->
 
 <!-- footer block -->
-<div th:replace="footer :: footer">...</div>
+<footer th:replace="layouts :: footer"></footer>
 <!-- //footer block -->
 
 <!-- Js scripts -->

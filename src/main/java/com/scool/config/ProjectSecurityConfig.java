@@ -44,7 +44,7 @@ public class ProjectSecurityConfig {
                 .build();
         UserDetails user = User.withDefaultPasswordEncoder()
                 .username("admin")
-                .password("54321")
+                .password("johnwick")
                 .roles("USER", "ADMIN")
                 .build();
         return new InMemoryUserDetailsManager(user, admin);
