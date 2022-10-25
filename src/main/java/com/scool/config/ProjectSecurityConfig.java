@@ -16,7 +16,7 @@ public class ProjectSecurityConfig {
 
     @Bean
     SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
-        http.csrf().disable()
+        http.csrf().ignoringAntMatchers("/saveMsg").and()
                 .authorizeRequests()
                 .mvcMatchers("/dashboard").authenticated()
                 .mvcMatchers("/home").permitAll()
