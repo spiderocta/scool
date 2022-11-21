@@ -10,6 +10,11 @@
 
 <br>
 
+## Status 
+
+![80%](https://progress-bar.dev/80/?title=Done)
+<br /> 
+
 ## About 
 Scool is an online educational institute for children helping both childrens and teachers to learn and teach from home with an easy to use user interface and management 
 dashboard.
